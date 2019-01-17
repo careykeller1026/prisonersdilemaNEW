@@ -1,13 +1,13 @@
 ####
 # Each team's file must define four tokens:
 #     team_name: a string
-#     strategy_name: a string
+#     strategy_ww
 #     strategy_description: a string
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'The name the team gives to itself' # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
+team_OGENGINEERS = 'The name the team gives to itself' # Only 10 chars displayed.
+strategy_vikings = 'The name the team gives to this strategy'
 strategy_description = 'How does this strategy decide?'
     
 def move(my_history, their_history, my_score, their_score):
@@ -26,7 +26,7 @@ def move(my_history, their_history, my_score, their_score):
     # Analyze my_history and their_history and/or my_score and their_score.
     # Decide whether to return 'c' or 'b'.
     
-    return 'b'
+    return 'c'
 
     
 def test_move(my_history, their_history, my_score, their_score, result):
@@ -52,7 +52,7 @@ if __name__ == '__main__':
               their_history='', 
               my_score=0,
               their_score=0,
-              result='b'):
+              result='c'):
          print 'Test passed'
      # Test 2: Continue betraying if they collude despite being betrayed.
     test_move(my_history='bbb',
@@ -65,4 +65,4 @@ if __name__ == '__main__':
               # move('bbb', 'ccc', 0, 0) returns 'b'.
               my_score=0, 
               their_score=0,
-              result='b')             
+              result='c')             
