@@ -7,7 +7,7 @@
 ####
 
 team_name = 'Spicy Flamingo' # Only 10 chars displayed.
-strategy_name = 'Hot Flamingo'
+strategy_name = 'The kingsman'
 strategy_description = 'How does this strategy decide?'
     
 def move(my_history, their_history, my_score, their_score):
