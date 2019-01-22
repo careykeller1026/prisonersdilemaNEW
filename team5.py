@@ -50,7 +50,7 @@ if __name__ == '__main__':
     if test_move(my_history='',
               their_history='', 
               my_score=-150,
-              their_score=-1300,
+              their_score=-1150,
               result='b'):
          print 'Test passed'
      # Test 2: Continue betraying if they collude despite being betrayed.
