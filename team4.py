@@ -49,9 +49,9 @@ if __name__ == '__main__':
      
     # Test 1: Betray on first move.
     if test_move(my_history='ccc',
-              their_history='ccc', 
-              my_score=0,
-              their_score=0,
+              their_history='bcb', 
+              my_score=-1000,
+              their_score=-2100,
               result='b'):
          print 'Test passed'
      # Test 2: Continue betraying if they collude despite being betrayed.
