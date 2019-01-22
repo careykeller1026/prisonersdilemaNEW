@@ -8,7 +8,7 @@
 
 team_name = 'The Kingsman' # Only 10 chars displayed.
 strategy_name = 'The colluder'
-strategy_description = 'We want both to be relased so we will get our stolen goods'
+strategy_description = 'Maybe to  betray is better'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
@@ -50,8 +50,8 @@ if __name__ == '__main__':
     # Test 1: Betray on first move.
     if test_move(my_history='',
               their_history='', 
-              my_score=0,
-              their_score=0,
+              my_score=-250,
+              their_score=-276,
               result='b'):
          print 'Test passed'
      # Test 2: Continue betraying if they collude despite being betrayed.
